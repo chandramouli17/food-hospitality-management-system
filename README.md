@@ -1,6 +1,6 @@
 # 🍔 Food & Hospitality Management System
 
-A full-stack web application that allows users to **order food and book rooms seamlessly**, with integrated payment functionality.
+A full-stack web application for food ordering and room booking with integrated online payment system.
 
 ---
 
@@ -18,22 +18,10 @@ A full-stack web application that allows users to **order food and book rooms se
 
 ## 🛠️ Tech Stack
 
-### 🔹 Frontend
-
-* HTML
-* CSS
-* JavaScript
-
-### 🔹 Backend
-
-* Java
-* Spring Boot
-* REST APIs
-
-### 🔹 Database
-
-* MySQL / H2 Database
-
+- Frontend: HTML, CSS, JavaScript  
+- Backend: Java, Spring Boot  
+- Database: MySQL / H2  
+- Payment: Razorpay
 ---
 
 ## 📐 Architecture
@@ -42,21 +30,26 @@ This project follows a **3-tier architecture**:
 
 ### 🔹 1. Presentation Layer (Frontend)
 
-* HTML, CSS, JavaScript
-* Handles UI (Food menu, Cart, Room booking)
+* Built using **HTML, CSS, JavaScript**
+* Responsible for:
+
+  * Displaying food menu
+  * Managing cart operations
+  * Handling room booking UI
 
 ### 🔹 2. Application Layer (Backend)
 
-* Spring Boot (Java)
-* Handles:
+* Built using **Spring Boot (Java)**
+* Responsible for:
 
   * User authentication
   * Order management
-  * Room booking
+  * Room booking logic
   * Payment processing
 
 ### 🔹 3. Data Layer (Database)
 
+* Uses **MySQL / H2 Database**
 * Stores:
 
   * Users
@@ -64,6 +57,37 @@ This project follows a **3-tier architecture**:
   * Rooms
   * Menu items
 
+---
+
+## 🌐 Client–Server Architecture
+
+This application follows a **client–server model**:
+
+### 🔹 Client (Frontend)
+
+* Built using **HTML, CSS, JavaScript**
+* Handles user interactions such as:
+
+  * Browsing menu
+  * Adding items to cart
+  * Booking rooms
+
+### 🔹 Server (Backend)
+
+* Built using **Spring Boot (Java)**
+* Provides REST APIs for:
+
+  * User authentication
+  * Order processing
+  * Room booking
+  * Payment integration
+
+### 🔹 Communication
+
+* Client sends **HTTP requests (GET, POST)** to backend
+* Server processes requests and returns **JSON responses**
+* Frontend updates UI dynamically based on responses
+  
 ---
 
 ## 📸 Screenshots
