@@ -66,6 +66,18 @@ This project follows a **3-tier architecture**:
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home](screenshots/home.png)
+
+### 🛒 Cart & Payment
+screenshots/Cart.png
+
+
+### 🏨 Room Booking
+![Rooms](screenshots/rooms.png)
+
 ## 🔄 Application Flow
 
 1. User interacts with UI (Frontend)
