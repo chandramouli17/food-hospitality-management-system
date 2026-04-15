@@ -69,14 +69,14 @@ This project follows a **3-tier architecture**:
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home](screenshots/home.png)
+screenshots/Home.png
 
 ### 🛒 Cart & Payment
 screenshots/Cart.png
+screenshots/Payment.png
 
-
-### 🏨 Room Booking
-![Rooms](screenshots/rooms.png)
+### 🏨 Architecture
+screenshots/architecture.png
 
 ## 🔄 Application Flow
 
